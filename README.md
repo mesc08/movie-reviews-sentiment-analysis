@@ -2,7 +2,7 @@
 
 ### DATASET
 
-This project contains an example sentiment analysis project that utilizes the IMDb movie review dataset found here: IMDb Movie Reviews[http://ai.stanford.edu/~amaas/data/sentiment/]
+This project contains an example sentiment analysis project that utilizes the IMDb movie review dataset found here: [IMDb Movie Reviews]([http://ai.stanford.edu/~amaas/data/sentiment/])
 
 After downloading:-
 As the dataset is split evenly with 25k reviews intended for training and 25k for testing your classifier. Moreover, each set has 12.5k positive and 12.5k negative reviews.
