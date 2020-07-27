@@ -1,6 +1,6 @@
 # MOVIE-REVIEW-SENTIMENT-ANALYSIS
 
-### DATASET
+## DATASET
 
 This project contains an example sentiment analysis project that utilizes the IMDb movie review dataset found here: [IMDb Movie Reviews](http://ai.stanford.edu/~amaas/data/sentiment/)
 
@@ -14,12 +14,44 @@ IMDb lets users rate movies on a scale from 1 to 10. To label these reviews the 
 4. for split in train test; do for sentiment in pos neg; do for file in $split/$sentiment/*; do cat $file >> movie_data/full_${split}.txt; echo >> movie_data/full_${split}.txt;    done; done; done;
 5.exit
 ```
-
+## APROACH
 
 ### LOGISTIC REGRESSION
 
-1. Step1 Read the file and store them in the form of list .
-2. Undergo cleaning and preprocess where we remove all the extra punctuations and symbols along with extra spaces(NLP task).
-3. Vectorization is done to convert each review data into numeric data
-4. Build logisticRegression classifier where the X and Xtest is the clean  data recieved after cleaning process && find the best c with high accuracy score.
-5. Final model is then trained based on the c value obtained and print the words which are positive and negative based on the coeff value.
+```MODEL ACCURACY ACHIEVED: 87.93```
+### STEMMING
+
+```MODEL ACCURACY ACHIEVED:85.79```
+### BASELINE
+
+```MODEL ACCURACY ACHIEVED:87.93```
+### LEMMANTIZATION
+
+```MODEL ACCURACY ACHIEVED:87.78```
+### NGRAM
+
+```MODEL ACCURACY ACHIEVED:```
+### REMOVING STOP WORDS
+
+```MODEL ACCURACY ACHIEVED:89.76```
+### USING WORD COUNT
+
+```MODEL ACCURACY ACHIEVED:88.196```
+### TFIDVECTORIZER
+
+```MODEL ACCURACY ACHIEVED:88.24```
+### SVM
+
+```MODEL ACCURACY ACHIEVED:89.76```
+### FINAL MODEL
+
+```MODEL ACCURACY ACHIEVED:89.932```
+
+## TECHNOLOGY USED:
+Jupyter Labs, scikit-learn, numpy, pandas
+
+## LANGUAGE USED:
+Python
+
+## ENVIRONMENT
+Anaconda
