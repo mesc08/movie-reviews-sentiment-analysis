@@ -16,3 +16,10 @@ IMDb lets users rate movies on a scale from 1 to 10. To label these reviews the 
 ```
 
 
+### LINEAR REGRESSION
+
+1. Step1 Read the file and store them in the form of list .
+2. Undergo cleaning and preprocess where we remove all the extra punctuations and symbols along with extra spaces(NLP task).
+3. Vectorization is done to convert each review data into numeric data
+4. Build logisticRegression classifier where the X and Xtest is the clean  data recieved after cleaning process && find the best c with high accuracy score.
+5. Final model is then trained based on the c value obtained and print the words which are positive and negative based on the coeff value.
