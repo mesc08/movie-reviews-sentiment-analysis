@@ -16,7 +16,7 @@ IMDb lets users rate movies on a scale from 1 to 10. To label these reviews the 
 ```
 
 
-### LINEAR REGRESSION
+### LOGISTIC REGRESSION
 
 1. Step1 Read the file and store them in the form of list .
 2. Undergo cleaning and preprocess where we remove all the extra punctuations and symbols along with extra spaces(NLP task).
