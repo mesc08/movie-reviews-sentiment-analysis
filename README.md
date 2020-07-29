@@ -1,5 +1,8 @@
 # MOVIE-REVIEW-SENTIMENT-ANALYSIS
 
+## AIM
+In this project we aim to use Sentiment Analysis on a set of movie reviews given by reviewers and try to understand what their overall reaction to the movie was, i.e. if they liked the movie or they hated it. We aim to utilize the relationships of the words in the review to predict the overall polarity of the review.
+
 ## DATASET
 
 This project contains an example sentiment analysis project that utilizes the IMDb movie review dataset found here: [IMDb Movie Reviews](http://ai.stanford.edu/~amaas/data/sentiment/)
